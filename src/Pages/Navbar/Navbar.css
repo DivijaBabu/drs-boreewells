@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+.headerpart1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    background: #ffff;
+    color: #0000;
+
+}
+.headerpart1 img{
+    width: 25px;
+    height: 25px;
+}
+.contactnumber{
+    display: flex;
+    gap: 1rem;
+
+}
+.contactnumber a,.contactnumber p{
+    text-decoration: none;
+    color: #000;
+    
+}
+.navigation{
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    height: 5rem;
+    color: #fff;
+}
+.imagelogo{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+.imagelogo img{
+    width: 150px;
+    height: 80px;
+}
+
+.navibar {
+  width: 64%;
+
+}
+
+.navibar ul {
+  display: flex;
+  align-items: stretch;
+  height: 5rem;
+  padding-right: 3.5rem;
+  font-size: 1rem;
+}
+
+.navibar a {
+  width: 20%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.navibar li {
+  list-style: none;
+}
+
+a.active {
+  cursor: pointer;
+  background-image: linear-gradient(to top, #4c98d3, #191718);
+}
+
+.navibar a {
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.bodycontainer{
+  height: 34rem;
+}
+.carousel-item img{
+  height: 30rem;
+}
+.carousel-item a{
+  background: #000;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background: lightsteelblue;
+}
+
+.carousel-caption-button{
+  width: 15%;
+  padding: 1rem;
+  color: #ffff;
+  background-image: linear-gradient(to top, #4c98d3, #191718);
+}
+.carousel-caption1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.maincontainer{
+  padding: 6rem;
+}
+.subcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subcontainer h2{
+  font-size: 2.5rem;
+}
+.subcontainer p{
+  font-size: 1.25rem;
+  
+}
