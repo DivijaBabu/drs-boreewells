@@ -23,12 +23,12 @@ export default function Navbar() {
             <div className="contactnumber">
               <img src={Email} alt="Email" />
               <a href="divijababu190702@gmail.com">
-                <p>divijababu190702@gmail.com</p>
+                <p>drsborewells.dpi@gmail.com</p>
               </a>
             </div>
             <div className="contactnumber">
               <img src={Contact} alt="Contact" />
-              <p>+91 123457890</p>
+              <p>+91 8144395949</p>
             </div>
           </div>
           <div className="navigation">
@@ -38,7 +38,7 @@ export default function Navbar() {
             </div>
             <div className="navibar">
               <ul className="nav_list">
-                <NavLink to="/Home" activeClassName="active">
+                <NavLink to="/" activeClassName="active">
                   <li>Home</li>
                 </NavLink>
                 <NavLink to="/AboutUs" activeClassName="active">
@@ -59,7 +59,7 @@ export default function Navbar() {
         </div>
       </header>
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/OurSkills" element={<OurSkills />} />

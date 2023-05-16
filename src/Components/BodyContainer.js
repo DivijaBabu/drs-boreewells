@@ -1,8 +1,11 @@
+import React from "react";
+import Underline from "../Assests/underlinenew.png";
 export default function BodyContainer() {
   return (
     <div className="maincontainer">
       <div className="subcontainer">
         <h2>DRS Borewell - Best Borewell Drilling Service over Tamilnadu</h2>
+        <img src={Underline} alt="underline" />
         <p>
           In all over tamilnadu we DRS Borewells provide the best borewell
           drilling services. As of now, Dharmapuri is home to more drill rig
