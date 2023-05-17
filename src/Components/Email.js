@@ -29,12 +29,26 @@ export const Email = () => {
     <div className="popup">
       <div className="popup-inner">
         <form className="emailform" ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input className="namefield" type="text" name="user_name" />
-          <label>Email</label>
-          <input className="namefield" type="email" name="user_email" />
-          <label>Message</label>
-          <textarea className="textarea" name="message" />
+          <label>Name*</label>
+          <input className="namefield" type="text" name="user_name" required />
+          <label>Phone Number*</label>
+          <input
+            type="tel"
+            className="namefield"
+            name="user_number"
+            placeholder="1234566789"
+            pattern="[0-9]{10}"
+            required
+          />
+          <label>Email*</label>
+          <input
+            className="namefield"
+            type="email"
+            name="user_email"
+            required
+          />
+          <label>Message*</label>
+          <textarea className="textarea" name="message" required />
           <button className="popup-button">submit</button>
         </form>
       </div>

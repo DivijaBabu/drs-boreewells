@@ -1,49 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-  }
-
-.headerpart1{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 3rem;
-    align-items: center;
-    background: #ffff;
-    color: #0000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
-.headerpart1 img{
-    width: 25px;
-    height: 25px;
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.contactnumber{
-    display: flex;
-    gap: 1rem;
+
+.headerpart1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background: #ffff;
+  color: #0000;
+  font-weight: 500;
+}
+
+.headerpart1 img {
+  width: 25px;
+  height: 25px;
+}
+
+.contactnumber {
+  display: flex;
+  gap: 1rem;
 
 }
-.contactnumber a,.contactnumber p{
-    text-decoration: none;
-    color: #000;
-    
+
+.contactnumber a,
+.contactnumber p {
+  text-decoration: none;
+  color: #000;
+
 }
-.navigation{
-    display: flex;
-    background: #000;
-    justify-content: space-between;
-    height: 5rem;
-    color: #fff;
+
+.navigation {
+  display: flex;
+  background: #000;
+  justify-content: space-between;
+  height: 5rem;
+  color: #fff;
 }
-.imagelogo{
-    display: flex;
-    align-items: center;
-    padding: 0 2rem;
+
+.imagelogo {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
 }
-.imagelogo img{
-    width: 150px;
-    height: 80px;
+
+.imagelogo img {
+  width: 150px;
+  height: 80px;
 }
 
 .navibar {
@@ -68,9 +82,12 @@
   text-align: center;
   justify-content: center;
   font-size: 1.5rem;
+  text-decoration: none;
+
 }
 
-.navibar li {
+.navibar li,
+.quicklink li {
   list-style: none;
 }
 
@@ -85,47 +102,58 @@ a.active {
   color: #fff;
 }
 
-.bodycontainer{
+.bodycontainer {
   height: 34rem;
 }
-.carousel-item img{
+
+.carousel-item img {
   height: 30rem;
 }
-.carousel-item a{
+
+.carousel-item a {
   background: #000;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background: lightsteelblue;
 }
 
-.carousel-caption-button{
+.carousel-caption-button {
   width: 15%;
   padding: 1rem;
   color: #ffff;
   background-image: linear-gradient(to top, #4c98d3, #191718);
 }
-.carousel-caption1{
+
+.carousel-caption1 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
-.maincontainer{
+
+.maincontainer {
   padding: 5rem;
 }
-.maincontainer2{
+
+.maincontainer2 {
   padding: 0 5rem 5rem 5rem;
 }
-.subcontainer{
+
+.subcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-.subcontainer h2,.subcontainer h3{
+
+.subcontainer h2,
+.subcontainer h3 {
   font-size: 2rem;
 }
-.subcontainer img{
+
+.subcontainer img {
   width: 100%;
   height: 4rem;
 }
@@ -144,31 +172,35 @@ a.active {
 }
 
 .popup-inner {
-  
+
   width: 100%;
   height: 100%;
   position: absolute;
   padding: 3rem;
 }
-.emailform{
+
+.emailform {
   display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: #000;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
 }
-.namefield{
+
+.namefield {
   outline: none;
-    height: 2.75rem;
-    border: none;
+  height: 2.75rem;
+  border: none;
 }
-.textarea{
+
+.textarea {
   resize: none;
-  height: 7.5rem;
+  height: 4.5rem;
   outline: none;
   border: none;
 }
+
 .popup-button {
   font-weight: bold;
   font-size: 1rem;
@@ -177,4 +209,61 @@ a.active {
   cursor: pointer;
   background: #5e627c;
   color: #fff;
+}
+
+.popup-button:hover {
+  background: rgb(16, 16, 18);
+}
+
+.footer {
+  height: 30%;
+  background: #000;
+  color: #ffff;
+  padding: 3rem;
+}
+
+.footer a {
+  color: #ffff;
+}
+
+.footer a:hover {
+  color: #4c98d3;
+}
+
+.footsubdiv {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.aboutfoot {
+  width: 32%;
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+}
+
+.quicklink {
+  width: 12%;
+}
+
+.quicklink ul,.drillingservice ul,.aboutfoot p {
+  padding: 0;
+  margin: 0;
+}
+
+.quicklink a,
+.drillingservice a {
+  height: 100%;
+  list-style: none;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  gap: 1rem;
+}
+.paralink{
+  display: flex;
+  gap: 1rem;
+}
+.paralink p{
+  padding-top: 5px;
 }
